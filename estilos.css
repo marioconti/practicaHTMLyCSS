@@ -1,0 +1,127 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+
+header {
+  position: relative;
+  margin: 20px auto;
+  width: 1010px;
+  height: 120px;
+  background-color: #53777A;
+}
+
+#logo {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 200px;
+  height: 60px;
+  background: #ccc;
+}
+
+.icono1, .icono2 , .icono3 { 
+  top: 42px;
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  background: #ffffff;
+  border-radius: 100%;
+} 
+
+.icono1{
+  right: 120px;
+}
+.icono2{
+  right: 69px;
+}
+.icono3{
+  right: 19px;
+}
+
+.nav {
+  position: relative;
+  margin: auto;
+  width: 1010px;
+  height: 48px;
+  background-color: #ECD078;
+}
+
+.nav_botones {
+  float:left;
+  color: white;
+  width: 198px;
+  height: 48px;
+  background: #542437
+  ;
+  margin: 0px 2px;
+  text-align: center;
+}
+
+#top {
+  position: relative;
+  margin: 20px auto;
+  width: 1000px;
+  height: 192px;
+  background-color: #ECD078;
+}
+
+#top ul {
+  width: 1010px;
+  height: 192px;
+  /*background: rgba(255, 0, 0, .5);*/
+}
+/*En este caso seguimos la ruta hasta la caja que queremos modificar*/
+
+#top ul li {
+  float: left;
+  width: 326.5px;
+  height: 192px;
+  background: #D95B43;
+  margin-right: 10px;
+}
+
+section {
+  position: relative;
+  margin: auto;
+  width: 1000px;
+  height: 453px;
+
+}
+
+aside#izq {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 200px;
+  height: 453px;
+  background: #ECD078;
+}
+
+article {
+  position: absolute;
+  left: 200px;
+  top: 0;
+  width: 600px;
+  height: 453px;
+  background: #C02942;
+}
+
+aside#der {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 200px;
+  height: 453px;
+  background: #ECD078;
+}
+
+footer {
+  position: relative;
+  margin: 20px auto;
+  width: 1000px;
+  height: 70px;
+  background-color: #53777A;
+}
