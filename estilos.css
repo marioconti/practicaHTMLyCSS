@@ -41,6 +41,7 @@ header {
   right: 19px;
 }
 
+/* Barra de navegación */
 .nav {
   position: relative;
   margin: auto;
@@ -60,6 +61,8 @@ header {
   text-align: center;
 }
 
+/* Menu */
+
 #top {
   position: relative;
   margin: 20px auto;
@@ -71,9 +74,8 @@ header {
 #top ul {
   width: 1010px;
   height: 192px;
-  /*background: rgba(255, 0, 0, .5);*/
 }
-/*En este caso seguimos la ruta hasta la caja que queremos modificar*/
+
 
 #top ul li {
   float: left;
@@ -83,6 +85,7 @@ header {
   margin-right: 10px;
 }
 
+/* Sección */
 section {
   position: relative;
   margin: auto;
@@ -118,6 +121,7 @@ aside#der {
   background: #ECD078;
 }
 
+/* Footer */
 footer {
   position: relative;
   margin: 20px auto;
